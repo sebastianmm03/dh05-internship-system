@@ -25,6 +25,6 @@
 - The outbox is at-least-once towards the channel; a crash between send and commit can repeat one message.
 - Only the activation slice exists in code (M-03, M-04, M-06, M-07, M-08, M-09, M-11). The four business modules M-01, M-02, M-05 and M-10, the closure gate and the web client are designed, not implemented or tested.
 - No performance, security-scanning or accessibility testing has been run.
-- The CI workflow (.github/workflows/ci.yml) exists but has not run on a remote, and no pull-request review was exercised: the team worked on one local repository.
+- The CI workflow (.github/workflows/ci.yml) ran once on GitHub (run #1 on commit 502188d, passed), but no pull-request review was exercised: the first version was pushed directly to main.
 - The architecture test reads import statements only. It does not see dynamic imports, imports made inside the routers (api.py, the composition points) or coupling through shared database tables.
 - QS-02 with a real workplace-supervisor identity is verified at policy level only, because the identity mock has none (EU-05).

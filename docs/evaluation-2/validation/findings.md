@@ -6,7 +6,7 @@ Executed on 2026-10-11. Raw output: pytest_output.txt, ruff_output.txt, mutation
 test_id: 'TP-01 / tests/unit/test_placement_lifecycle.py (6 tests)'
 status: 'PASSED'
 claim: 'BR-01, BR-03, INV-01..03: the lifecycle only moves through the transition table; ACTIVE only through activate() with a passed gate.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -43,7 +43,7 @@ related:
 test_id: 'TP-02 / tests/unit/test_readiness_rules.py (5 tests)'
 status: 'PASSED'
 claim: 'BR-01, BR-02, BR-08, QS-07: pending, expired or missing conditions block; directory failure keeps the gate closed; a rule change is configuration only.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -80,7 +80,7 @@ related:
 test_id: 'TP-03 / tests/unit/test_reference_and_adapters.py (7 cases)'
 status: 'PASSED'
 claim: 'AD-05, QS-05, EU-03: adapters translate payloads and the three failures; the legacy program code is normalized.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -117,7 +117,7 @@ related:
 test_id: 'TP-04 / test_sc01_*, test_sc02_*, test_directory_down_*'
 status: 'PASSED'
 claim: 'QS-08, BR-01, BR-02: activation refused when a condition blocks or the directory is down.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -154,7 +154,7 @@ related:
 test_id: 'TP-05 / test_failure_in_the_middle_rolls_everything_back'
 status: 'PASSED'
 claim: 'INV-05: state, audit and outbox commit together or not at all.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -191,7 +191,7 @@ related:
 test_id: 'TP-05 / test_two_concurrent_activations_only_one_commits'
 status: 'PASSED'
 claim: 'QS-09, BR-12, ADR-010: two commands that read the same status cannot both commit.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -228,7 +228,7 @@ related:
 test_id: 'TP-06 / test_failed_delivery_keeps_activation_and_retries, test_qs06_*, test_outbox_message_is_failed_after_five_attempts'
 status: 'PASSED'
 claim: 'QS-06, BR-11, ADR-008: a failed notification never undoes an activation; messages are retried and marked FAILED after 5 attempts; no restricted data in payloads.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -265,7 +265,7 @@ related:
 test_id: 'TP-07 / access tests in test_activation_endpoint.py and test_traceability_evidence.py'
 status: 'PASSED'
 claim: 'QS-01 (partial), QS-02, BR-09, BR-10, ADR-005: relationship-based access, 404 vs 403, audited denials, audience projections.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -302,7 +302,7 @@ related:
 test_id: 'TP-08 / tests/architecture/test_module_boundaries.py (5 tests)'
 status: 'PASSED'
 claim: 'ADR-001, ADR-006, ADR-007: module dependencies follow the written rules; domain code is framework-free; only M-11 imports the mocks; audit is append-only.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -339,7 +339,7 @@ related:
 test_id: 'TP-09 / test_seed_never_modifies_the_raw_files, test_seed_loads_every_placement_of_the_pack_once'
 status: 'PASSED'
 claim: 'EU-03, INV-08: the seed never edits the raw exports and loads every placement once.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'
@@ -376,7 +376,7 @@ related:
 test_id: 'TP-10 / docs/evaluation-2/validation/mutation_check.py'
 status: 'EXECUTED (6 of 6 injected defects detected)'
 claim: 'The tests detect real defects in the design mechanisms.'
-source_commit: null  # no git history; see source_digest
+source_commit: '502188d4724d4a4279bc5d472c5d186052fadd26'  # same source digest as the executed copy
 source_digest: 'f7281a5c6c9e7a50 (command: find src tests config -type f \( -name ''*.py'' -o -name ''*.json'' \) -not -path ''*/__pycache__/*'' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16)'
 executed_at: '2026-10-11'
 executor: 'Sebastián Mercado, 2026-10-11'

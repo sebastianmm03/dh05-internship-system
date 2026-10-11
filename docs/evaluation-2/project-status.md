@@ -16,7 +16,7 @@
 
 | ID | Risk | P | I | Mitigation / trigger | Owner role | Status |
 |---|---|---|---|---|---|---|
-| AR-01 | A module imports another module's internals and the boundaries decay. | M | H | Architecture test fails the test suite (and the CI build once CI runs); keep ALLOWED table in sync with the Module Design. | Architecture owner | Mitigated (TP-08) |
+| AR-01 | A module imports another module's internals and the boundaries decay. | M | H | Architecture test fails the test suite (and the CI build on GitHub); keep ALLOWED table in sync with the Module Design. | Architecture owner | Mitigated (TP-08) |
 | AR-02 | The mock identity header reaches a real pilot as the only authentication. | M | H | No pilot before IdentityAdapter is replaced; decide with IT Services (identity integration is still an open question). | Architecture owner | Open |
 | AR-03 | Readiness matrix (CL-020) differs from our union of observed conditions. | H | M | Rules are configuration; replace file and version. Ask the Legal Representative. | Backend owner | Open (EU-02) |
 | AR-04 | PostgreSQL behaves differently from SQLite for conditional update or JSON columns. | L | M | Run the suite on PostgreSQL before Evaluation 3 (TP-14). | Quality owner | Open |

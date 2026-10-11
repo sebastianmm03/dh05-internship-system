@@ -9,7 +9,7 @@
 | Identity | Header X-Mock-User-Id with MOCK_IDENTITY_ENABLED=true; development only (DA-04). |
 | Worker | Run on demand with scripts/run_worker.py; a scheduler is a deployment decision for the pilot. |
 | Data | DH-05 release-1 data pack; manifest hashes verified (placement_types.csv unchanged). |
-| Reproducibility | pip install -e '.[dev]'; python scripts/seed_domain.py; pytest. The same commands are configured in CI (.github/workflows/ci.yml), which has not run yet. |
+| Reproducibility | pip install -e '.[dev]'; python scripts/seed_domain.py; pytest. The same commands run in CI (.github/workflows/ci.yml); run #1 on GitHub passed on 2026-10-11. |
 
 ## Signals
 

@@ -55,8 +55,10 @@ python docs/evaluation-2/validation/mutation_check.py .
 The last command breaks the code on purpose in a temporary copy (6 different defects) and checks
 that our tests catch each one. The repository itself is not changed.
 
-The same checks are set up in GitHub Actions (`.github/workflows/ci.yml`). At the time of this
-delivery the workflow had not run yet.
+The same checks run in GitHub Actions (`.github/workflows/ci.yml`) on every push. The first run
+(run #1, commit `502188d`, 2026-10-11) passed.
+
+Repository: https://github.com/sebastianmm03/dh05-internship-system
 
 ## How the code is organized
 

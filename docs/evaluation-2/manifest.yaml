@@ -2,7 +2,7 @@ project: DH-05 Internship and Practicum Management System
 milestone: Evaluation 2 - Architecture and Design Review
 team: [Sebastián Mercado, Cher Jiménez, Juan Arbeláez]
 document_version: 2026-10-11
-source_commit: null  # no git history is delivered; the source is identified by the digest below
+source_commit: 502188d4724d4a4279bc5d472c5d186052fadd26  # github.com/sebastianmm03/dh05-internship-system; same code as the digest below
 source_digest_sha256_16: f7281a5c6c9e7a50
 source_digest_command: >-
   find src tests config -type f \( -name '*.py' -o -name '*.json' \) -not -path '*/__pycache__/*' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16
@@ -34,4 +34,4 @@ limitations:
   - concurrency verified by deterministic interleaving on SQLite, not parallel connections on PostgreSQL
   - outbox delivery is at-least-once towards the channel
   - identity is a development header, not authentication
-  - the CI workflow is configured but has not run; there is no remote repository yet
+  - CI ran once on GitHub (run #1 on commit 502188d, passed); no pull-request review was exercised yet

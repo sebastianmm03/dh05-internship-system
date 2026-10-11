@@ -12,8 +12,8 @@
 <text x="72.0" y="190.8" font-family="DzSans" font-size="14.5" font-weight="600" fill="#1D2B36" text-anchor="start" word-spacing="1.5">Browser on the same machine</text>
 <text x="72.0" y="211.0" font-family="DzSans" font-size="11.5" font-weight="400" fill="#51606B" text-anchor="start" word-spacing="1.5">Swagger UI at /docs; header X-Mock-User-Id</text>
 <rect x="60.0" y="300.0" width="760.0" height="400.0" rx="6" fill="none" stroke="#51606B" stroke-width="1.2" stroke-dasharray="6 4" opacity="1"/>
-<rect x="74.0" y="692.0" width="395.3" height="15.0" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1"/>
-<text x="80.0" y="703.0" font-family="DzSans" font-size="12" font-weight="600" fill="#51606B" text-anchor="start" word-spacing="1.5">Team laptop: one Python 3.12 environment (CI runner once CI runs)</text>
+<rect x="74.0" y="692.0" width="254.6" height="15.0" rx="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1"/>
+<text x="80.0" y="703.0" font-family="DzSans" font-size="12" font-weight="600" fill="#51606B" text-anchor="start" word-spacing="1.5">Team laptop: one Python 3.12 environment</text>
 <rect x="90.0" y="330.0" width="330.0" height="120.0" rx="3" fill="#FFFFFF" stroke="#1F6F78" stroke-width="1.5" opacity="1"/>
 <path d="M90.0,330.0 v-15 q0,-3 3,-3 h30.4 l5,6 v12 z" fill="#1F6F78" stroke="#1F6F78" stroke-width="1.2"/>
 <text x="97.0" y="326.5" font-family="DzNarrow" font-size="11" font-weight="600" fill="#FFFFFF" text-anchor="start">C-API</text>
@@ -42,12 +42,12 @@
 <text x="72.0" y="780.3" font-family="DzSans" font-size="14.5" font-weight="600" fill="#1D2B36" text-anchor="start" word-spacing="1.5">PostgreSQL 16 container</text>
 <text x="72.0" y="800.4" font-family="DzSans" font-size="11.5" font-weight="400" fill="#51606B" text-anchor="start" word-spacing="1.5">docker-compose profile prepared; suite NOT EXECUTED</text>
 <text x="72.0" y="815.6" font-family="DzSans" font-size="11.5" font-weight="400" fill="#51606B" text-anchor="start" word-spacing="1.5">against it (TP-14)</text>
-<rect x="460.0" y="740.0" width="360.0" height="110.0" rx="3" fill="#FFFFFF" stroke="#1F6F78" stroke-width="1.5" stroke-dasharray="6 4" opacity="1"/>
-<path d="M460.0,740.0 v-15 q0,-3 3,-3 h15.0 l5,6 v12 z" fill="#FFFFFF" stroke="#1F6F78" stroke-width="1.2" stroke-dasharray="4 3"/>
-<text x="467.0" y="736.5" font-family="DzNarrow" font-size="11" font-weight="600" fill="#1F6F78" text-anchor="start">CI</text>
+<rect x="460.0" y="740.0" width="360.0" height="110.0" rx="3" fill="#FFFFFF" stroke="#C9D1D6" stroke-width="1.5" opacity="1"/>
+<path d="M460.0,740.0 v-15 q0,-3 3,-3 h15.0 l5,6 v12 z" fill="#C9D1D6" stroke="#C9D1D6" stroke-width="1.2"/>
+<text x="467.0" y="736.5" font-family="DzNarrow" font-size="11" font-weight="600" fill="#1D2B36" text-anchor="start">CI</text>
 <text x="472.0" y="780.3" font-family="DzSans" font-size="14.5" font-weight="600" fill="#1D2B36" text-anchor="start" word-spacing="1.5">GitHub Actions</text>
-<text x="472.0" y="800.4" font-family="DzSans" font-size="11.5" font-weight="400" fill="#51606B" text-anchor="start" word-spacing="1.5">ci.yml: ruff, data validation, pytest. Configured; has not run yet</text>
-<text x="472.0" y="815.6" font-family="DzSans" font-size="11.5" font-weight="400" fill="#51606B" text-anchor="start" word-spacing="1.5">(no remote).</text>
+<text x="472.0" y="800.4" font-family="DzSans" font-size="11.5" font-weight="400" fill="#51606B" text-anchor="start" word-spacing="1.5">ci.yml: ruff, data validation, pytest. Runs on every push; run #1</text>
+<text x="472.0" y="815.6" font-family="DzSans" font-size="11.5" font-weight="400" fill="#51606B" text-anchor="start" word-spacing="1.5">passed.</text>
 <path d="M235.0,246.0 L235.0,330.0" fill="none" stroke="#1D2B36" stroke-width="1.4" marker-end="url(#ar-sync)"/>
 <path d="M255.0,450.0 L255.0,500.0" fill="none" stroke="#1D2B36" stroke-width="1.4" marker-end="url(#ar-sync)"/>
 <path d="M420.0,420.0 L440.0,420.0 L440.0,560.0 L460.0,560.0" fill="none" stroke="#1D2B36" stroke-width="1.4" marker-end="url(#ar-sync)"/>
