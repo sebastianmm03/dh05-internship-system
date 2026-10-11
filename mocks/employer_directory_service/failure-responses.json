@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "failure_id": "EMP-404",
+      "http_status": 404,
+      "error": "ORGANIZATION_NOT_FOUND",
+      "message": "No synthetic employer matches the supplied identifier."
+    },
+    {
+      "failure_id": "EMP-409",
+      "http_status": 409,
+      "error": "AGREEMENT_STATUS_CONFLICT",
+      "message": "Employer and agreement records are inconsistent."
+    },
+    {
+      "failure_id": "EMP-503",
+      "http_status": 503,
+      "error": "SERVICE_UNAVAILABLE",
+      "message": "The simulated Employer Directory Service is temporarily unavailable."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scenario_id": "DH05-SC-02",
+  "title": "Placement blocked by expired agreement and missing insurance",
+  "actors": [
+    "student",
+    "agreements_representative",
+    "experiential_learning_coordinator",
+    "host_organization"
+  ],
+  "initial_records": [
+    "INT-APP-1005",
+    "PLC-2003",
+    "INT-DOC-005",
+    "INT-DOC-006",
+    "READY-007",
+    "READY-008"
+  ],
+  "known_conditions": [
+    "The student and employer have been selected.",
+    "The agreement is expired.",
+    "Required insurance evidence is missing."
+  ],
+  "questions": [
+    "How should readiness requirements be configured and audited?",
+    "Who is responsible for each missing condition?",
+    "What prevents the student from starting informally?"
+  ]
+}

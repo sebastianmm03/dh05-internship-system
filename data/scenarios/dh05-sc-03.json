@@ -1,0 +1,24 @@
+{
+  "scenario_id": "DH05-SC-03",
+  "title": "Reported hours disputed by workplace supervisor",
+  "actors": [
+    "student",
+    "workplace_supervisor",
+    "faculty_supervisor"
+  ],
+  "initial_records": [
+    "PLC-2001",
+    "HOUR-001",
+    "HOUR-002"
+  ],
+  "known_conditions": [
+    "One hour entry was accepted.",
+    "Another entry was reduced by the workplace supervisor.",
+    "Accepted hours should not be inferred from student reporting alone."
+  ],
+  "questions": [
+    "How should reported, confirmed, disputed, and accepted hours differ?",
+    "Who may resolve the dispute?",
+    "What audit history is required?"
+  ]
+}

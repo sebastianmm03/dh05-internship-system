@@ -1,0 +1,3 @@
+incident_id,placement_id,reported_at,reported_by,incident_category,severity,summary,visibility,incident_status,resolved_at
+INC-001,PLC-2001,2027-02-10T09:00:00Z,HU-STU-5003,DUTIES_DIFFER_FROM_PLAN,MEDIUM,Student reports repeated administrative tasks outside approved plan.,RESTRICTED,UNDER_REVIEW,
+INC-002,PLC-2004,2026-05-15T10:00:00Z,FAC-SUP-102,SUPERVISION_DELAY,LOW,Workplace supervisor response delayed for two weeks.,INTERNAL,RESOLVED,2026-05-22T14:00:00Z

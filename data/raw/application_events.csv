@@ -1,0 +1,5 @@
+event_id,application_id,occurred_at,actor_id,event_type,from_status,to_status,reason,visibility
+APP-EVT-5001,INT-APP-1001,2026-09-10T09:00:00Z,ORG-C-001,EMPLOYER_SELECTED,Employer review,Employer selected,,STUDENT
+APP-EVT-5002,INT-APP-1003,2026-09-16T10:00:00Z,EXP-COORD-001,PLACEMENT_APPROVED,Administrative review,Placement approved,Academic and administrative requirements satisfied.,STUDENT
+APP-EVT-5003,INT-APP-1005,2026-09-12T10:00:00Z,AGR-REP-001,READINESS_BLOCKED,Administrative review,Administrative review,Agreement expired and insurance evidence missing.,STUDENT
+APP-EVT-5004,INT-APP-1004,2026-09-12T11:00:00Z,ORG-C-003,EMPLOYER_REJECTED,Employer review,Rejected by employer,Another candidate was selected.,STUDENT

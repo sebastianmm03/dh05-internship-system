@@ -1,0 +1,198 @@
+{
+  "project_code": "DH-05",
+  "project_name": "Internship and Practicum Management",
+  "release": "release-1-discovery",
+  "synthetic_data_only": true,
+  "files": [
+    {
+      "path": "README.md",
+      "size_bytes": 1176,
+      "sha256": "a7261d57966b5fe5cecea5c785a428a49fbe186c20775f29af67871398e8084a"
+    },
+    {
+      "path": "data/events/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/generated/.gitkeep",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/application_documents.csv",
+      "size_bytes": 775,
+      "sha256": "308b7ed9b3447e57515d0c18ff50be35ff59ae144cc1e726b51d8437425142b9"
+    },
+    {
+      "path": "data/raw/application_events.csv",
+      "size_bytes": 731,
+      "sha256": "75148e0cb8a98b52963a84ed9917ea5ee037735bd5c4dbb73f004dc0b16b9e39"
+    },
+    {
+      "path": "data/raw/applications.csv",
+      "size_bytes": 1151,
+      "sha256": "ed551b58695edd7825d09c49d4aeff939ffdf95d53a13c64c71cd72b60ca4966"
+    },
+    {
+      "path": "data/raw/eligibility_reviews.csv",
+      "size_bytes": 892,
+      "sha256": "b7191fc52302377ed8de8b546592600d9c02ea7dd89483284edeea554d4ed3fc"
+    },
+    {
+      "path": "data/raw/evaluations.csv",
+      "size_bytes": 592,
+      "sha256": "bbde53aad92ca5ca4733b996ad3664c0767c0471a6e01c3930e8ecd580f6f303"
+    },
+    {
+      "path": "data/raw/hour_entries.csv",
+      "size_bytes": 575,
+      "sha256": "c50f7bce401cea17a6b68e59d8627f63dcb12198a7a5dc532f6322ec50fcb615"
+    },
+    {
+      "path": "data/raw/internship_opportunities.csv",
+      "size_bytes": 1139,
+      "sha256": "97e3242032bf634459522aad13c2c6a7a22df483c5907cc7afb506f3f36c982f"
+    },
+    {
+      "path": "data/raw/placement_incidents.csv",
+      "size_bytes": 465,
+      "sha256": "dec0021251857dbcf31e40ad9f95fe65efdff303986c317cca82a5f43dd4837a"
+    },
+    {
+      "path": "data/raw/placements.csv",
+      "size_bytes": 966,
+      "sha256": "f773f76477a178d34b89f21669b300f6a793e4902a04e46bdd52c274c913c860"
+    },
+    {
+      "path": "data/raw/progress_reports.csv",
+      "size_bytes": 432,
+      "sha256": "503e2d31936c4724968c90fa643d7ede71974d1d0b9de26021de36087285b54f"
+    },
+    {
+      "path": "data/raw/readiness_checklist.csv",
+      "size_bytes": 650,
+      "sha256": "f2ad74e556961f07f7dd9b4b086b39fa9050b04fb578ef8379d4000674688f4f"
+    },
+    {
+      "path": "data/raw/students_current_export.csv",
+      "size_bytes": 1253,
+      "sha256": "3f19c11bab9880f354acd0bf7e506048b4b4c1446ed2f7b5b5262b267fe84fc3"
+    },
+    {
+      "path": "data/raw/supervisors.csv",
+      "size_bytes": 515,
+      "sha256": "3391f4da22949fb8e15d0f02a86d7693f57809e3a8f80b33b23bc4be82c237af"
+    },
+    {
+      "path": "data/raw/work_plans.csv",
+      "size_bytes": 654,
+      "sha256": "b8447d08f2a03bb1abe3b4fa7b211bd2703f85acb240cbb8143c28d1c5ee6887"
+    },
+    {
+      "path": "data/reference/academic_programs.csv",
+      "size_bytes": 610,
+      "sha256": "e7f9ebf7c7b757c693e70eefea866b15a4d65e322efc6750313c0efc7e74ad98"
+    },
+    {
+      "path": "data/reference/document_types.csv",
+      "size_bytes": 531,
+      "sha256": "e80283ebf459a855a32e1ca5875d0ae649379ff9cc83d1273e83fc6ff7f97c99"
+    },
+    {
+      "path": "data/reference/host_organizations.csv",
+      "size_bytes": 698,
+      "sha256": "c6cb542e2c6511f9fc5caf3da581f8598ebb1b4c7e432ed2057516e196c0eabf"
+    },
+    {
+      "path": "data/reference/mock_identities.json",
+      "size_bytes": 1064,
+      "sha256": "b50e0ac76574eb38f0869c6e63e36bf7795a46840d68ddf1b40f889cb808efd3"
+    },
+    {
+      "path": "data/reference/organization_contacts.csv",
+      "size_bytes": 556,
+      "sha256": "23fb4b302135c76e315ddb14c63e1e7e8fa6a30900963c56463139b625ce0301"
+    },
+    {
+      "path": "data/reference/placement_types.csv",
+      "size_bytes": 517,
+      "sha256": "59dd457d3d4430b41a7aa2b40a37842e22c5ce6229992989f9eb71aed39390e6"
+    },
+    {
+      "path": "data/reference/staff.csv",
+      "size_bytes": 562,
+      "sha256": "cb78f2b85067a860f4a0a59a3b8b8eb4021277d51a174eba42e1c7cdea5b12f1"
+    },
+    {
+      "path": "data/scenarios/dh05-sc-01.json",
+      "size_bytes": 735,
+      "sha256": "dd0f7f8644309684f9b6b123c90f8e4a706da6cbb471d31779c76a1602a541f9"
+    },
+    {
+      "path": "data/scenarios/dh05-sc-02.json",
+      "size_bytes": 738,
+      "sha256": "ab7b2c6157259b2b256b34c2e67d50417c5619d18d61e4ee23bbedd786842983"
+    },
+    {
+      "path": "data/scenarios/dh05-sc-03.json",
+      "size_bytes": 631,
+      "sha256": "cd4615291004c1d7502b43edb4da6ab4df74ba7466a5813cabc368edef49452c"
+    },
+    {
+      "path": "data/scenarios/dh05-sc-04.json",
+      "size_bytes": 766,
+      "sha256": "f14cbf13c7d762729685e9f970b0d4235f27edce84c5ba6c268328669030a3fa"
+    },
+    {
+      "path": "data/scenarios/dh05-sc-05.json",
+      "size_bytes": 710,
+      "sha256": "4b1b4d560ce7316a7e767bca2ab107d6c18b9b6acae63ac0b087dabf234f4ee0"
+    },
+    {
+      "path": "data-dictionary.md",
+      "size_bytes": 3388,
+      "sha256": "959105621c34830f2ea9e24c35859bb6a2e07b0994e155f1783484e6b1c39f89"
+    },
+    {
+      "path": "dataset-notes.md",
+      "size_bytes": 1132,
+      "sha256": "67dca041f64c80a804682a2b650dd2f2c0612a1e5f14f7f89663369073a51085"
+    },
+    {
+      "path": "mocks/employer_directory_service/failure-responses.json",
+      "size_bytes": 585,
+      "sha256": "2410b3b3c371364830e422e11ce82cf3dae2418e6407b8cb01986459ff998fdf"
+    },
+    {
+      "path": "mocks/employer_directory_service/organizations.json",
+      "size_bytes": 1944,
+      "sha256": "9cc5039ebf9e5eb3097860314fd62e7b313561753a60a814c4d7e89441bb5bc1"
+    },
+    {
+      "path": "mocks/employer_directory_service/service-contract.md",
+      "size_bytes": 422,
+      "sha256": "5cadc7d1f62f65d3924d97e71fff81d5488239688e6320191bd2d4be1ef1b559"
+    },
+    {
+      "path": "mocks/student_information_service/failure-responses.json",
+      "size_bytes": 593,
+      "sha256": "4d9e8ca914a55385f887f57fa8c980a8ba3c3f1364a91b77495a8ccf05390ba5"
+    },
+    {
+      "path": "mocks/student_information_service/service-contract.md",
+      "size_bytes": 475,
+      "sha256": "7d55ef695a0544849f2d52a7bd618d701af4a72dfd0e024ac8641f172e0670d0"
+    },
+    {
+      "path": "mocks/student_information_service/students.json",
+      "size_bytes": 3047,
+      "sha256": "7f3c930034a19135a35ac40c2d0d6abf31e8a672f490c38a1ce5f223da5e69d8"
+    },
+    {
+      "path": "scenario-index.md",
+      "size_bytes": 488,
+      "sha256": "4f712df81261150d86101ef6f06b48b9e93a8ef46830ad538e41a871c69239ca"
+    }
+  ]
+}

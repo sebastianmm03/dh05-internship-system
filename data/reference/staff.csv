@@ -1,0 +1,7 @@
+staff_id,display_name,institutional_email,staff_role,active
+EXP-COORD-001,Laura Benitez,laura.benitez@example.edu,EXPERIENTIAL_LEARNING_COORDINATOR,true
+EXP-DIR-001,Patricia Gomez,patricia.gomez@example.edu,PROGRAM_DIRECTOR,true
+ACAD-COORD-101,Andres Molina,andres.molina@example.edu,ACADEMIC_PROGRAM_COORDINATOR,true
+FAC-SUP-101,Ricardo Mejia,ricardo.mejia@example.edu,FACULTY_SUPERVISOR,true
+FAC-SUP-102,Carolina Pardo,carolina.pardo@example.edu,FACULTY_SUPERVISOR,true
+AGR-REP-001,Sofia Delgado,sofia.delgado@example.edu,AGREEMENTS_REPRESENTATIVE,true

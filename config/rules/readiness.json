@@ -1,0 +1,22 @@
+{
+  "version": "readiness-v1",
+  "status": "Initial configuration - pending CL-020 (Legal Representative)",
+  "source": "Union of the conditions observed in data/raw/readiness_checklist.csv (EU-02) plus the RFP rule that students must not start before activation.",
+  "readiness": {
+    "default": [
+      {"type": "REQUIREMENT_COMPLETE", "requirement": "ACADEMIC_APPROVAL"},
+      {"type": "REQUIREMENT_COMPLETE", "requirement": "WORK_PLAN"},
+      {"type": "REQUIREMENT_COMPLETE", "requirement": "VALID_AGREEMENT"},
+      {"type": "AGREEMENT_VALID_IN_DIRECTORY"},
+      {"type": "SUPERVISORS_ASSIGNED"}
+    ],
+    "PROFESSIONAL_PRACTICUM": [
+      {"type": "REQUIREMENT_COMPLETE", "requirement": "ACADEMIC_APPROVAL"},
+      {"type": "REQUIREMENT_COMPLETE", "requirement": "WORK_PLAN"},
+      {"type": "REQUIREMENT_COMPLETE", "requirement": "VALID_AGREEMENT"},
+      {"type": "REQUIREMENT_COMPLETE", "requirement": "INSURANCE_REFERENCE"},
+      {"type": "AGREEMENT_VALID_IN_DIRECTORY"},
+      {"type": "SUPERVISORS_ASSIGNED"}
+    ]
+  }
+}

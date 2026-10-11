@@ -1,0 +1,27 @@
+{
+  "scenario_id": "DH05-SC-01",
+  "title": "Employer-selected student without academic approval",
+  "actors": [
+    "student",
+    "employer_contact",
+    "academic_program_coordinator",
+    "experiential_learning_coordinator"
+  ],
+  "initial_records": [
+    "INT-APP-1001",
+    "APP-EVT-5001",
+    "PLC-2002",
+    "READY-004",
+    "READY-006"
+  ],
+  "known_conditions": [
+    "The employer selected the student.",
+    "Academic approval and approved work plan are still pending.",
+    "The placement must not be activated."
+  ],
+  "questions": [
+    "How should employer selection differ from placement approval?",
+    "Which readiness conditions block activation?",
+    "What information should the student see at each step?"
+  ]
+}

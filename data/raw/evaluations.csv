@@ -1,0 +1,4 @@
+evaluation_id,placement_id,evaluation_type,evaluator_id,submitted_at,overall_rating,student_visible_feedback,restricted_comments,visibility_classification,status
+EVAL-001,PLC-2001,MIDTERM_EMPLOYER,SUP-EXT-001,2027-03-15T10:00:00Z,4.4,Strong communication and professional conduct.,Needs closer review of site safety documentation.,MIXED,SUBMITTED
+EVAL-002,PLC-2004,FINAL_EMPLOYER,SUP-EXT-004,,,,,MIXED,OVERDUE
+EVAL-003,PLC-2004,FINAL_FACULTY,FAC-SUP-102,2026-07-05T10:00:00Z,3.8,Academic requirements mostly satisfied.,Final employer evaluation remains missing.,MIXED,SUBMITTED_WITH_HOLD

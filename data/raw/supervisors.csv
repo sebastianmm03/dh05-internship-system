@@ -1,0 +1,7 @@
+supervisor_id,display_name,email,organization_id,supervisor_type,active
+SUP-EXT-001,Felipe Vargas,felipe.vargas@example.org,ORG-002,WORKPLACE,true
+SUP-EXT-002,Daniela Torres,daniela.torres@example.org,ORG-001,WORKPLACE,true
+SUP-EXT-003,Camila Romero,camila.romero@example.org,ORG-005,WORKPLACE,true
+SUP-EXT-004,Laura Mejia,laura.mejia@example.org,ORG-003,WORKPLACE,true
+FAC-SUP-101,Ricardo Mejia,ricardo.mejia@example.edu,HU,FACULTY,true
+FAC-SUP-102,Carolina Pardo,carolina.pardo@example.edu,HU,FACULTY,true

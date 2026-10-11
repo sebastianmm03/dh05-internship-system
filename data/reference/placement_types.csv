@@ -1,0 +1,11 @@
+placement_type,display_name,active
+ACADEMIC_INTERNSHIP,Academic internship,true
+PROFESSIONAL_PRACTICUM,Professional practicum,true
+COOPERATIVE_EDUCATION,Cooperative education,true
+RESEARCH_INTERNSHIP,Research internship,true
+COMMUNITY_SERVICE,Community-service placement,true
+TEACHING_PRACTICUM,Teaching practicum,true
+CLINICAL_FIELD,Clinical or field placement,true
+INTERNAL_UNIVERSITY,Internal university placement,true
+INTERNATIONAL,International placement,true
+REMOTE_INTERNSHIP,Remote internship,true

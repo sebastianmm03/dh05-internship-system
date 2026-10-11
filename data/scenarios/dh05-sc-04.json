@@ -1,0 +1,26 @@
+{
+  "scenario_id": "DH05-SC-04",
+  "title": "Actual duties diverge from approved work plan",
+  "actors": [
+    "student",
+    "workplace_supervisor",
+    "faculty_supervisor",
+    "academic_program_coordinator"
+  ],
+  "initial_records": [
+    "PLC-2001",
+    "WP-001",
+    "PRG-001",
+    "INC-001"
+  ],
+  "known_conditions": [
+    "The student reports administrative duties outside the approved plan.",
+    "The placement may remain active while the issue is reviewed.",
+    "Significant work-plan changes require approval."
+  ],
+  "questions": [
+    "How should the approved baseline and actual duties be compared?",
+    "When should the placement be active with monitoring or on hold?",
+    "How is a revised work plan approved without overwriting history?"
+  ]
+}

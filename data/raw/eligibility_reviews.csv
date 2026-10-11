@@ -1,0 +1,7 @@
+review_id,application_id,reviewed_at,reviewed_by,outcome,criteria_summary,source_data_timestamp
+ELIG-5001,INT-APP-1001,2026-09-06T09:00:00Z,EXP-COORD-001,ELIGIBLE,"Program, credits, enrollment, and standing verified.",2026-08-15T08:00:00Z
+ELIG-5002,INT-APP-1002,2026-09-08T09:00:00Z,EXP-COORD-001,ELIGIBLE,Academic criteria satisfied.,2026-08-15T08:00:00Z
+ELIG-5003,INT-APP-1003,2026-09-03T09:00:00Z,EXP-COORD-001,ELIGIBLE,Civil Engineering practicum requirements satisfied.,2026-08-15T08:00:00Z
+ELIG-5004,INT-APP-1005,2026-09-04T10:00:00Z,EXP-COORD-001,ELIGIBLE,Biology eligibility confirmed.,2026-08-15T08:00:00Z
+ELIG-5005,INT-APP-1006,2026-09-07T09:00:00Z,EXP-COORD-001,INELIGIBLE,Student is not actively enrolled.,2026-08-15T08:00:00Z
+ELIG-5006,INT-APP-1007,2026-09-09T09:00:00Z,EXP-COORD-001,INELIGIBLE,Academic standing does not satisfy program requirement.,2026-08-15T08:00:00Z

@@ -1,0 +1,4 @@
+work_plan_id,placement_id,version_label,approved_at,approved_by,responsibilities_summary,learning_outcomes,current_version
+WP-001,PLC-2001,v2,2026-09-15T10:00:00Z,ACAD-COORD-101,"Assist with site quality reviews, documentation, and progress reporting.",Apply project-control and quality-assurance methods.,true
+WP-002,PLC-2002,v1,,,"Support backend development, testing, and deployment automation.",Apply software engineering design and delivery practices.,true
+WP-003,PLC-2004,v1,2026-02-20T09:00:00Z,ACAD-COORD-101,Coordinate community workshops and maintain participation records.,Apply program planning and stakeholder communication skills.,true

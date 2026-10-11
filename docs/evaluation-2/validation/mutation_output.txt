@@ -1,0 +1,8 @@
+BASELINE (no defect): PASSED -> 59 passed, 1 warning in 1.07s
+Application imported from: <copy>
+M1 remove the conditional update (compare-and-set): DETECTED -> FAILED tests/integration/test_concurrency_and_atomicity.py::test_two_concurrent_activations_only_one_commits
+M2 directory failure lets the gate pass (fail open): DETECTED -> FAILED tests/integration/test_activation_endpoint.py::test_directory_down_means_activation_refused
+M3 projection stops hiding restricted evidence: DETECTED -> FAILED tests/integration/test_activation_endpoint.py::test_host_organization_sees_readiness_without_restricted_evidence
+M4 student may activate: DETECTED -> FAILED tests/integration/test_activation_endpoint.py::test_student_cannot_activate_and_denial_is_audited
+M5 rules module imports placements (boundary violation): DETECTED -> FAILED tests/architecture/test_module_boundaries.py::test_modules_only_depend_on_the_modules_the_design_allows
+M6 worker commits once at the end again: DETECTED -> FAILED tests/integration/test_traceability_evidence.py::test_qs06_worker_crash_does_not_resend_what_was_already_sent

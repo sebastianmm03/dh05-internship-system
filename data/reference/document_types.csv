@@ -1,0 +1,9 @@
+document_type,display_name,sensitive_level,active
+STUDENT_CV,Student CV,APPLICATION,true
+MOTIVATION_LETTER,Motivation letter,APPLICATION,true
+ACADEMIC_ELIGIBILITY_REFERENCE,Academic eligibility reference,ACADEMIC,true
+INSTITUTIONAL_AGREEMENT_REFERENCE,Institutional agreement reference,RESTRICTED,true
+INSURANCE_REFERENCE,Insurance evidence reference,RESTRICTED,true
+CONFIDENTIALITY_FORM,Confidentiality form,RESTRICTED,true
+WORK_PLAN,Approved work plan,PLACEMENT_TEAM,true
+FINAL_REPORT,Student final report,ACADEMIC,true

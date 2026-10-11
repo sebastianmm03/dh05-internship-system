@@ -1,0 +1,37 @@
+project: DH-05 Internship and Practicum Management System
+milestone: Evaluation 2 - Architecture and Design Review
+team: [Sebastián Mercado, Cher Jiménez, Juan Arbeláez]
+document_version: 2026-10-11
+source_commit: null  # no git history is delivered; the source is identified by the digest below
+source_digest_sha256_16: f7281a5c6c9e7a50
+source_digest_command: >-
+  find src tests config -type f \( -name '*.py' -o -name '*.json' \) -not -path '*/__pycache__/*' | LC_ALL=C sort | xargs sha256sum | sha256sum | cut -c1-16
+entry_point: README.md
+architecture_document: docs/evaluation-2/architecture-document.pdf
+decisions: docs/evaluation-2/adr/
+requirements: docs/evaluation-2/requirements-and-drivers.md
+views: docs/evaluation-2/views/
+contracts: docs/evaluation-2/design/interfaces.md
+validation_plan: docs/evaluation-2/validation/test-plan.md
+findings: docs/evaluation-2/validation/findings.md
+traceability: docs/evaluation-2/traceability.md
+project_status: docs/evaluation-2/project-status.md
+implementation:
+  implemented_use_cases: [UC-ACT activate a placement (US-014, US-016), readiness view (US-012)]
+  designed_not_implemented: [M-01 opportunities, M-02 applications and eligibility, M-05 monitoring and evaluation (hours, incidents, evaluations), M-10 reporting, closure gate, web client]
+  simulated_integrations: [identity (mock_identities.json), student information service, employer directory, notification channel (printed)]
+  real_integrations: []
+execution:
+  tested_environment: Windows 11, Python 3.12.1, SQLite 3.43.1 (details in docs/evaluation-2/validation/versions.txt)
+  startup_command: uvicorn horizon.main:app --reload
+  seed_command: python scripts/seed_domain.py
+  test_commands: ['python -m pytest -o addopts="" -v', ruff check ., ruff format --check ., python docs/evaluation-2/validation/mutation_check.py .]
+evidence:
+  passed: [59 tests (pytest_output.txt), 6 of 6 injected defects detected (mutation_output.txt)]
+  failed: []
+  not_executed: [TP-12 acceptance of designed modules, TP-13 load, TP-14 PostgreSQL and parallel concurrency, TP-15 security scanning]
+limitations:
+  - concurrency verified by deterministic interleaving on SQLite, not parallel connections on PostgreSQL
+  - outbox delivery is at-least-once towards the channel
+  - identity is a development header, not authentication
+  - the CI workflow is configured but has not run; there is no remote repository yet

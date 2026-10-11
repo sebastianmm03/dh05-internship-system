@@ -1,0 +1,7 @@
+contact_id,organization_id,display_name,email,contact_role,active
+ORG-C-001,ORG-001,Daniela Torres,daniela.torres@example.org,INTERNSHIP_COORDINATOR,true
+ORG-C-002,ORG-002,Felipe Vargas,felipe.vargas@example.org,HR_COORDINATOR,true
+ORG-C-003,ORG-003,Laura Mejia,laura.mejia@example.org,PROGRAM_MANAGER,true
+ORG-C-004,ORG-004,Sergio Pardo,sergio.pardo@example.edu,RESEARCH_COORDINATOR,true
+ORG-C-005,ORG-005,Camila Romero,camila.romero@example.org,LAB_DIRECTOR,true
+ORG-C-006,ORG-006,Michael Reed,michael.reed@example.org,REMOTE_PROGRAM_MANAGER,true

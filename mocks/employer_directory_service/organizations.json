@@ -1,0 +1,67 @@
+{
+  "records": [
+    {
+      "organization_id": "ORG-001",
+      "organization_name": "Northbridge Digital Services",
+      "sector": "Technology",
+      "country": "Colombia",
+      "agreement_status": "ACTIVE",
+      "agreement_valid_until": "2027-12-31",
+      "active": true
+    },
+    {
+      "organization_id": "ORG-002",
+      "organization_name": "Greenline Infrastructure",
+      "sector": "Engineering and construction",
+      "country": "Colombia",
+      "agreement_status": "ACTIVE",
+      "agreement_valid_until": "2026-11-30",
+      "active": true
+    },
+    {
+      "organization_id": "ORG-003",
+      "organization_name": "BrightPath Community Foundation",
+      "sector": "Nonprofit",
+      "country": "Colombia",
+      "agreement_status": "ACTIVE",
+      "agreement_valid_until": "2028-06-30",
+      "active": true
+    },
+    {
+      "organization_id": "ORG-004",
+      "organization_name": "Horizon University Research Center",
+      "sector": "University research",
+      "country": "Colombia",
+      "agreement_status": "INTERNAL",
+      "agreement_valid_until": null,
+      "active": true
+    },
+    {
+      "organization_id": "ORG-005",
+      "organization_name": "AquaLab Environmental Analytics",
+      "sector": "Environmental science",
+      "country": "Colombia",
+      "agreement_status": "EXPIRED",
+      "agreement_valid_until": "2026-07-31",
+      "active": true
+    },
+    {
+      "organization_id": "ORG-006",
+      "organization_name": "Global Remote Ventures",
+      "sector": "Business services",
+      "country": "Canada",
+      "agreement_status": "PENDING_REVIEW",
+      "agreement_valid_until": null,
+      "active": true
+    },
+    {
+      "organization_id": "ORG-099",
+      "organization_name": "Former Metro Consulting",
+      "sector": "Consulting",
+      "country": "Colombia",
+      "agreement_status": "TERMINATED",
+      "agreement_valid_until": "2025-12-31",
+      "active": false
+    }
+  ]
+}

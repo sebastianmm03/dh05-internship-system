@@ -1,0 +1,9 @@
+student_id,full_name,institutional_email,program_code,program_name,academic_period,enrollment_status,completed_credits,academic_average,academic_standing,previous_placement_count,source_updated_at
+HU-STU-5001,Mateo Hernandez,mateo.hernandez@example.edu,BSC-SWE,Software Engineering,2026-2,ACTIVE,102,4.05,GOOD,0,2026-08-15T08:00:00Z
+HU-STU-5002,Valentina Cruz,valentina.cruz@example.edu,BSC-CS,Computer Science,2026-2,ACTIVE,95,3.89,GOOD,0,2026-08-15T08:00:00Z
+HU-STU-5003,Isabella Moreno,isabella.moreno@example.edu,BENG-CIV,Civil Engineering,2026-2,ACTIVE,108,4.01,GOOD,0,2026-08-15T08:00:00Z
+HU-STU-5004,Daniela Acosta,daniela.acosta@example.edu,BBA,Business Administration,2026-2,ACTIVE,84,3.78,GOOD,0,2026-08-15T08:00:00Z
+HU-STU-5005,Luciana Gomez,luciana.gomez@example.edu,BSC-BIO,Biological Sciences,2026-2,ACTIVE,98,4.25,GOOD,0,2026-08-15T08:00:00Z
+HU-STU-5006,Sara Molina,sara.molina@example.edu,SWE,BSc Software Eng.,2026-2,LEAVE_OF_ABSENCE,88,3.91,GOOD,0,2026-08-15T08:00:00Z
+HU-STU-5007,Nicolas Herrera,nicolas.herrera@example.edu,BSC-IE,Industrial Engineering,2026-2,ACTIVE,72,3.55,PROBATION,0,2026-08-15T08:00:00Z
+HU-STU-5008,Tomas Medina,tomas.medina@example.edu,BA-PSY,BA Psych,2026-2,ACTIVE,90,3.82,GOOD,1,2026-08-15T08:00:00Z

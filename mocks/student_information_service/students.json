@@ -1,0 +1,100 @@
+{
+  "records": [
+    {
+      "student_id": "HU-STU-5001",
+      "name": "Mateo Hernandez",
+      "institutional_email": "mateo.hernandez@example.edu",
+      "program_code": "BSC-SWE",
+      "academic_period": "2026-2",
+      "enrollment_status": "ACTIVE",
+      "completed_credits": 102,
+      "academic_average": 4.05,
+      "academic_standing": "GOOD",
+      "previous_placement_count": 0
+    },
+    {
+      "student_id": "HU-STU-5002",
+      "name": "Valentina Cruz",
+      "institutional_email": "valentina.cruz@example.edu",
+      "program_code": "BSC-CS",
+      "academic_period": "2026-2",
+      "enrollment_status": "ACTIVE",
+      "completed_credits": 95,
+      "academic_average": 3.89,
+      "academic_standing": "GOOD",
+      "previous_placement_count": 0
+    },
+    {
+      "student_id": "HU-STU-5003",
+      "name": "Isabella Moreno",
+      "institutional_email": "isabella.moreno@example.edu",
+      "program_code": "BENG-CIV",
+      "academic_period": "2026-2",
+      "enrollment_status": "ACTIVE",
+      "completed_credits": 108,
+      "academic_average": 4.01,
+      "academic_standing": "GOOD",
+      "previous_placement_count": 0
+    },
+    {
+      "student_id": "HU-STU-5004",
+      "name": "Daniela Acosta",
+      "institutional_email": "daniela.acosta@example.edu",
+      "program_code": "BBA",
+      "academic_period": "2026-2",
+      "enrollment_status": "ACTIVE",
+      "completed_credits": 84,
+      "academic_average": 3.78,
+      "academic_standing": "GOOD",
+      "previous_placement_count": 0
+    },
+    {
+      "student_id": "HU-STU-5005",
+      "name": "Luciana Gomez",
+      "institutional_email": "luciana.gomez@example.edu",
+      "program_code": "BSC-BIO",
+      "academic_period": "2026-2",
+      "enrollment_status": "ACTIVE",
+      "completed_credits": 98,
+      "academic_average": 4.25,
+      "academic_standing": "GOOD",
+      "previous_placement_count": 0
+    },
+    {
+      "student_id": "HU-STU-5006",
+      "name": "Sara Molina",
+      "institutional_email": "sara.molina@example.edu",
+      "program_code": "SWE",
+      "academic_period": "2026-2",
+      "enrollment_status": "LEAVE_OF_ABSENCE",
+      "completed_credits": 88,
+      "academic_average": 3.91,
+      "academic_standing": "GOOD",
+      "previous_placement_count": 0
+    },
+    {
+      "student_id": "HU-STU-5007",
+      "name": "Nicolas Herrera",
+      "institutional_email": "nicolas.herrera@example.edu",
+      "program_code": "BSC-IE",
+      "academic_period": "2026-2",
+      "enrollment_status": "ACTIVE",
+      "completed_credits": 72,
+      "academic_average": 3.55,
+      "academic_standing": "PROBATION",
+      "previous_placement_count": 0
+    },
+    {
+      "student_id": "HU-STU-5008",
+      "name": "Tomas Medina",
+      "institutional_email": "tomas.medina@example.edu",
+      "program_code": "BA-PSY",
+      "academic_period": "2026-2",
+      "enrollment_status": "ACTIVE",
+      "completed_credits": 90,
+      "academic_average": 3.82,
+      "academic_standing": "GOOD",
+      "previous_placement_count": 1
+    }
+  ]
+}

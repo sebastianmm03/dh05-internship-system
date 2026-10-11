@@ -1,0 +1,5 @@
+placement_id,source_application_id,student_id,organization_id,placement_type,approved_start_date,approved_end_date,expected_weekly_hours,required_total_hours,work_modality,primary_location,faculty_supervisor_id,workplace_supervisor_id,placement_status,activated_at,completed_at,closed_at
+PLC-2001,INT-APP-1003,HU-STU-5003,ORG-002,PROFESSIONAL_PRACTICUM,2027-01-20,2027-05-31,32,480,ONSITE,Cartagena project site,FAC-SUP-101,SUP-EXT-001,ACTIVE,2027-01-20T08:00:00Z,,
+PLC-2002,INT-APP-1001,HU-STU-5001,ORG-001,ACADEMIC_INTERNSHIP,2027-01-15,2027-06-15,30,480,HYBRID,Barranquilla,FAC-SUP-101,SUP-EXT-002,Activation pending,,,
+PLC-2003,INT-APP-1005,HU-STU-5005,ORG-005,PROFESSIONAL_PRACTICUM,2027-01-15,2027-05-15,30,420,ONSITE,Environmental laboratory,FAC-SUP-102,SUP-EXT-003,Blocked,,,
+PLC-2004,INT-APP-OLD-88,HU-STU-5008,ORG-003,COMMUNITY_SERVICE,2026-03-01,2026-06-30,20,240,HYBRID,Barranquilla,FAC-SUP-102,SUP-EXT-004,Completion pending,2026-03-01T08:00:00Z,,

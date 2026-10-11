@@ -1,0 +1,8 @@
+program_code,program_name,faculty,active,known_aliases
+BSC-SWE,BSc Software Engineering,Engineering,true,Software Engineering|BSc Software Eng.|SWE
+BSC-CS,BSc Computer Science,Engineering,true,Computer Science|Comp. Science|CS
+BSC-IE,BSc Industrial Engineering,Engineering,true,Industrial Engineering|IE
+BENG-CIV,BEng Civil Engineering,Engineering,true,Civil Engineering|BEng Civil
+BBA,Bachelor of Business Administration,Business,true,Business Administration|BBA
+BSC-BIO,BSc Biology,Science,true,Biology|Biological Sciences
+BA-PSY,BA Psychology,Humanities and Social Sciences,true,Psychology|BA Psych

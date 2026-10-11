@@ -1,0 +1,44 @@
+[
+  {
+    "user_id": "HU-STU-5001",
+    "display_name": "Mateo Hernandez",
+    "email": "mateo.hernandez@example.edu",
+    "institutional_role": "STUDENT",
+    "active": true
+  },
+  {
+    "user_id": "HU-STU-5003",
+    "display_name": "Isabella Moreno",
+    "email": "isabella.moreno@example.edu",
+    "institutional_role": "STUDENT",
+    "active": true
+  },
+  {
+    "user_id": "EXP-COORD-001",
+    "display_name": "Laura Benitez",
+    "email": "laura.benitez@example.edu",
+    "institutional_role": "EMPLOYEE",
+    "active": true
+  },
+  {
+    "user_id": "ACAD-COORD-101",
+    "display_name": "Andres Molina",
+    "email": "andres.molina@example.edu",
+    "institutional_role": "EMPLOYEE",
+    "active": true
+  },
+  {
+    "user_id": "FAC-SUP-101",
+    "display_name": "Ricardo Mejia",
+    "email": "ricardo.mejia@example.edu",
+    "institutional_role": "EMPLOYEE",
+    "active": true
+  },
+  {
+    "user_id": "ORG-C-001",
+    "display_name": "Daniela Torres",
+    "email": "daniela.torres@example.org",
+    "institutional_role": "EXTERNAL",
+    "active": true
+  }
+]

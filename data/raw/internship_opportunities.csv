@@ -1,0 +1,7 @@
+opportunity_id,organization_id,title,placement_type,eligible_programs,work_modality,location_text,start_date,end_date,expected_weekly_hours,minimum_credits,minimum_average,status,active
+INT-OPP-001,ORG-001,Software Engineering Internship,ACADEMIC_INTERNSHIP,BSC-SWE|BSC-CS,HYBRID,Barranquilla,2027-01-15,2027-06-15,30,90,3.50,PUBLISHED,true
+INT-OPP-002,ORG-002,Civil Engineering Site Practicum,PROFESSIONAL_PRACTICUM,BENG-CIV,ONSITE,Cartagena,2027-01-20,2027-05-31,32,100,3.50,PUBLISHED,true
+INT-OPP-003,ORG-003,Community Program Coordination Internship,COMMUNITY_SERVICE,BBA|BA-PSY,HYBRID,Barranquilla,2027-02-01,2027-05-30,20,70,3.40,PUBLISHED,true
+INT-OPP-004,ORG-004,Research Software Internship,RESEARCH_INTERNSHIP,BSC-SWE|BSC-CS|BSC-BIO,ONSITE,Horizon Main Campus,2027-01-10,2027-06-30,24,80,3.80,PUBLISHED,true
+INT-OPP-005,ORG-005,Environmental Laboratory Internship,PROFESSIONAL_PRACTICUM,BSC-BIO,ONSITE,Barranquilla,2027-01-15,2027-05-15,30,90,3.70,UNDER_REVIEW,true
+INT-OPP-006,ORG-006,Remote Business Analytics Internship,REMOTE_INTERNSHIP,BBA|BSC-IE,REMOTE,Remote,2027-01-20,2027-06-20,25,75,3.50,PENDING_AGREEMENT,true

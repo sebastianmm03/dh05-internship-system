@@ -1,0 +1,8 @@
+organization_id,organization_name,sector,country,agreement_status,agreement_valid_until,active
+ORG-001,Northbridge Digital Services,Technology,Colombia,ACTIVE,2027-12-31,true
+ORG-002,Greenline Infrastructure,Engineering and construction,Colombia,ACTIVE,2026-11-30,true
+ORG-003,BrightPath Community Foundation,Nonprofit,Colombia,ACTIVE,2028-06-30,true
+ORG-004,Horizon University Research Center,University research,Colombia,INTERNAL,,true
+ORG-005,AquaLab Environmental Analytics,Environmental science,Colombia,EXPIRED,2026-07-31,true
+ORG-006,Global Remote Ventures,Business services,Canada,PENDING_REVIEW,,true
+ORG-099,Former Metro Consulting,Consulting,Colombia,TERMINATED,2025-12-31,false

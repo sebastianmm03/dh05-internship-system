@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "failure_id": "SIS-404",
+      "http_status": 404,
+      "error": "STUDENT_NOT_FOUND",
+      "message": "No synthetic student matches the supplied identifier."
+    },
+    {
+      "failure_id": "SIS-409",
+      "http_status": 409,
+      "error": "STALE_ACADEMIC_PROFILE",
+      "message": "The student profile may not reflect the current academic period."
+    },
+    {
+      "failure_id": "SIS-503",
+      "http_status": 503,
+      "error": "SERVICE_UNAVAILABLE",
+      "message": "The simulated Student Information Service is temporarily unavailable."
+    }
+  ]
+}
